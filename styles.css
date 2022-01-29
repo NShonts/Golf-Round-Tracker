@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Source+Serif+4:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&display=swap');
+
+
+html, body {
+    font-family: 'Source Serif 4', sans-serif;
+    font-size: 10px;
+}
+
+html {
+    background: url(img/banner.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70vw;
+    margin: 50PX 15%;
+    padding-bottom: 30px;
+    background-color: 	rgba(211,211,211, 0.6);
+    border-radius: 3%;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+#round-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    margin: 10px;
+}
+
+label {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+input {
+    width: 45vw;
+    line-height: 2rem;
+}
+
+
+#btn-submit {
+    margin: 20px;
+    padding: 5px;
+    color: #fff;
+    border: 1px solid #007200;
+    background-color: #007200;
+}
+
+.table {
+    width: 45vw;
+    text-align: left;
+    font-size: 1.3rem;
+    background-color:rgba(211,211,211, 0.8)
+}
+
+th {
+    border-bottom-style: solid
+}
+
+.btn-delete {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 0 2px;
+}
