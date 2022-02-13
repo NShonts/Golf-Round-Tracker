@@ -7,7 +7,7 @@ html, body {
 }
 
 html {
-    background: url(banner.jpg) no-repeat center;
+    background: url("https://NShonts.github.io/banner.jpg") no-repeat center;
     background-size: cover;
     height: 100vh;
 }
