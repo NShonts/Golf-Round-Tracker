@@ -7,7 +7,7 @@ html, body {
 }
 
 html {
-    background: url(img/banner.jpg) no-repeat center;
+    background: url(banner.jpg) no-repeat center;
     background-size: cover;
     height: 100vh;
 }
